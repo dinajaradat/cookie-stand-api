@@ -15,5 +15,9 @@ class CookieStand(models.Model):
     def __str__(self):
         return self.location
 
+    def __str__(self):
+        return self.owner
+
+
     def get_absolute_url(self):
         return reverse('cookiestand_detail', args=[str(self.id)])

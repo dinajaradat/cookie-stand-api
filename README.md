@@ -35,3 +35,8 @@ Template Project for starting up CRUD API with Django Rest Framework
 ## Database
 
 **NOTE:** If you are using Postgres instead of SQLite then make sure to install `psycopg2-binary` and include in `requirements.txt`
+
+
+
+
+[ .env content](./env_sample.md)
